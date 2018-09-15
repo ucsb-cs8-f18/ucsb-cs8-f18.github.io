@@ -192,3 +192,5 @@ defaults:
       layout: handout
 
 
+
+theme: jekyll-theme-minimal
