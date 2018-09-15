@@ -1,4 +1,4 @@
-
+theme: jekyll-theme-minimal
 course: "CS8"
 legacy_wiki_name: 8wiki
 legacy_wiki_url: "https://foo.cs.ucsb.edu/8wiki" 
@@ -193,4 +193,3 @@ defaults:
 
 
 
-theme: jekyll-theme-minimal
