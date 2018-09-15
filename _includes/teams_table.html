@@ -1,0 +1,13 @@
+<table id="teams_table" class="asn_table">
+<tr>
+  <th>team</th>
+  <th>description</th>
+</tr>
+
+{% for t in site.teams %}
+<tr>
+  <td><a href="{{t.url}}">{{ t.team }}</a></td>
+  <td>{{ t.desc }}</td>
+</tr>
+{% endfor %}
+</table>

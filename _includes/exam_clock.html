@@ -1,0 +1,42 @@
+
+<style>
+  .clock {  float:right; width:400px; margin: 1em;
+            padding: 2em 1em 0.5em 1em; white-space: nowrap; }
+  .countdown-clock { float:left; width: 480px; margin: 1em;
+            padding: 2em 1em 0.5em 1em; white-space: nowrap;}
+  .flip-clock-wrapper {
+    font: normal 18px "Arial Narrow", Helvetica, sans-serif;
+      -webkit-user-select: none; }
+
+  
+</style>
+
+
+<div class="clock"></div>
+
+
+
+<script>
+  var clock = $('.clock').FlipClock({
+      	    clockFace: 'TwelveHourClock',
+	    showSeconds: false
+	    	       });
+</script>
+
+
+{% if page.exam_end %}
+<div class="countdown-clock"></div>
+<script>
+
+ var exam_end = "{{page.exam_end}}";
+ var secondsRemaining = moment(exam_end).diff(moment(),'seconds');
+ console.log("secondsRemaining = " + secondsRemaining);
+ var countDownClock = $('.countdown-clock').FlipClock(secondsRemaining,{
+            countdown: true,	    	  
+      	    clockFace: 'DailyCounter',
+	    showSeconds: false
+	    	       });
+</script>
+{% endif %}
+ 
+

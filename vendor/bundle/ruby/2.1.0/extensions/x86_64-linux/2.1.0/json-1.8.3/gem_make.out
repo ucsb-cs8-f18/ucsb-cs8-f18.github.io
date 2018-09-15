@@ -1,0 +1,14 @@
+current directory: /home/diba/git/ucsb-cs8-f17.github.io/vendor/bundle/ruby/2.1.0/gems/json-1.8.3/ext/json
+/home/diba/.rvm/rubies/ruby-2.1.7/bin/ruby -r ./siteconf20170913-25273-1ggv541.rb extconf.rb
+creating Makefile
+
+current directory: /home/diba/git/ucsb-cs8-f17.github.io/vendor/bundle/ruby/2.1.0/gems/json-1.8.3/ext/json
+make "DESTDIR=" clean
+
+current directory: /home/diba/git/ucsb-cs8-f17.github.io/vendor/bundle/ruby/2.1.0/gems/json-1.8.3/ext/json
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: /home/diba/git/ucsb-cs8-f17.github.io/vendor/bundle/ruby/2.1.0/gems/json-1.8.3/ext/json
+make "DESTDIR=" install
+installing default libraries

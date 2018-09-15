@@ -1,0 +1,62 @@
+current directory: /home/diba/git/ucsb-cs8-f17.github.io/vendor/bundle/ruby/2.1.0/gems/ffi-1.9.10/ext/ffi_c
+/home/diba/.rvm/rubies/ruby-2.1.7/bin/ruby -r ./siteconf20170913-25273-lci595.rb extconf.rb
+/home/diba/.rvm/rubies/ruby-2.1.7/lib/ruby/2.1.0/mkmf.rb:1517: warning: Insecure world writable dir /home/diba/.rvm/gems/ruby-2.1.7/bin in PATH, mode 040777
+checking for ffi_call() in -lffi... yes
+checking for ffi_prep_closure()... yes
+checking for ffi_raw_call()... yes
+checking for ffi_prep_raw_closure()... yes
+checking for rb_thread_blocking_region()... yes
+checking for rb_thread_call_with_gvl()... yes
+checking for rb_thread_call_without_gvl()... yes
+checking for ffi_prep_cif_var()... yes
+creating extconf.h
+creating Makefile
+
+current directory: /home/diba/git/ucsb-cs8-f17.github.io/vendor/bundle/ruby/2.1.0/gems/ffi-1.9.10/ext/ffi_c
+make "DESTDIR=" clean
+
+current directory: /home/diba/git/ucsb-cs8-f17.github.io/vendor/bundle/ruby/2.1.0/gems/ffi-1.9.10/ext/ffi_c
+make "DESTDIR="
+compiling AbstractMemory.c
+compiling ArrayType.c
+compiling Buffer.c
+compiling Call.c
+In file included from Call.c:62:0:
+Call.c: In function ‘do_blocking_call’:
+Thread.h:78:39: warning: implicit declaration of function ‘rb_thread_call_without_gvl’ [-Wimplicit-function-declaration]
+ # define rbffi_thread_blocking_region rb_thread_call_without_gvl
+                                       ^
+Call.c:368:5: note: in expansion of macro ‘rbffi_thread_blocking_region’
+     rbffi_thread_blocking_region(call_blocking_function, data, (void *) -1, NULL);
+     ^
+compiling ClosurePool.c
+compiling DataConverter.c
+compiling DynamicLibrary.c
+compiling Function.c
+Function.c: In function ‘async_cb_event’:
+Function.c:563:9: warning: implicit declaration of function ‘rb_thread_call_without_gvl’ [-Wimplicit-function-declaration]
+         rb_thread_call_without_gvl(async_cb_wait, &w, async_cb_stop, &w);
+         ^
+compiling FunctionInfo.c
+compiling LastError.c
+compiling LongDouble.c
+compiling MappedType.c
+compiling MemoryPointer.c
+compiling MethodHandle.c
+compiling Platform.c
+compiling Pointer.c
+compiling Struct.c
+compiling StructByReference.c
+compiling StructByValue.c
+compiling StructLayout.c
+compiling Thread.c
+compiling Type.c
+compiling Types.c
+compiling Variadic.c
+compiling ffi.c
+linking shared-object ffi_c.so
+
+current directory: /home/diba/git/ucsb-cs8-f17.github.io/vendor/bundle/ruby/2.1.0/gems/ffi-1.9.10/ext/ffi_c
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20170913-25273-36dc5g
+installing default ffi_c libraries
