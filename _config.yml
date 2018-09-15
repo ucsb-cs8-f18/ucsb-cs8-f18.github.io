@@ -21,7 +21,7 @@ legacy_wiki_name: "8wiki"
 
 
 start_week: 1
-start_date: 2018-10-01 00:00:00.00-7:00
+start_date: 2018-09-30 00:00:00.00-7:00
 num_weeks: 10 
 extra_exam_week: true 
 sections: "9am,&nbsp;10a,&nbsp;11a&nbsp;or&nbsp;noon"
@@ -29,15 +29,15 @@ sections: "9am,&nbsp;10a,&nbsp;11a&nbsp;or&nbsp;noon"
 cal_dates: >
   [
   {"label":"First day of instruction", "date":"2018-10-02" },
-  {"label":"Last day to Add","date":"2018-10-04" },
-  {"label":"Last day to Add with code","date":"2018-10-18" },
-  {"label":"Drop w/ Full Refund","date":"2018-10-04" },
-  {"label":"Drop Deadline (no W grade)","date":"2018-10-18" },
-  {"label":"Univ Holiday: Veterans Day", "date":"2018-11-10" },
+  {"label":"Last day to Add","date":"2018-10-03" },
+  {"label":"Last day to Add with code","date":"2018-10-17" },
+  {"label":"Drop w/ Full Refund","date":"2018-10-03" },
+  {"label":"Drop Deadline (no W grade)","date":"2018-10-24" },
+  {"label":"Univ Holiday: Veterans Day", "date":"2018-11-12" },
+  {"label":"Univ Holiday: Happy Thanksgiving", "date":"2018-11-22" },
   {"label":"Univ Holiday: Happy Thanksgiving", "date":"2018-11-23" },
-  {"label":"Univ Holiday: Happy Thanksgiving", "date":"2018-11-24" },
-  {"label":"Grade Option Change Deadline", "date":"2018-11-17" },    
-  {"label":"Last day of instructions", "date":"2018-12-08" }      
+  {"label":"Grade Option Change Deadline", "date":"2018-11-16" },    
+  {"label":"Last day of instructions", "date":"2018-12-07" }      
   ]
 
 
@@ -48,8 +48,6 @@ kramdown:
 
 exclude:
    - vendor
-   - _exam/e02/cs56_m16_e02/code
-   - _exam/e01/cs56_f16_e01/code
 
 
 timezone: America/Los_Angeles

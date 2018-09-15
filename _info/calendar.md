@@ -1,5 +1,5 @@
 ---
-title: Calendar
+title: Assignment Calendar
 layout: calendar
 ---
 

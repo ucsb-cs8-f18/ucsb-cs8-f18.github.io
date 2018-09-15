@@ -1,19 +1,17 @@
 ---
-title: "Syllabus, CMPSC 8, Fall 2017"
-layout: handout
-ready: false
+title: "Syllabus"
+layout: default
+ready: true
 ---
 
 Basic Facts
 -----------
 
 * **Course Web Site**: <http://ucsb-cs8.github.io>
-* **Instructor**:  [Diba Mirza](http://www.cs.ucsb.edu/~dmirza)
-   * Email is diba@ucsb.edu, BUT please use Piazza for course related communication.
-* **Lecture**: MW 12:30pm-1:45pm MUSIC LLCH, ATTENDANCE REQUIRED.
-* **TAs**:  {{site.ta_list_full}} (contact via Piazza.com)
-* **Lab** (50 minute discussion section) Tuesdays 8am, 9am , 10am , 11am , noon, 1pm - Phelps 3525, ATTENDANCE REQUIRED.                                         
-* Office Hours: See: [Dr. Mirza and CS 8 staff office hours calendar](https://calendar.google.com/calendar/embed?src=ucsb.edu_760irs3sq39ukkker6l89gaf4g%40group.calendar.google.com&ctz=America/Los_Angeles")
+* **Instructor**:  [Diba Mirza](http://www.cs.ucsb.edu/~dimirza)
+* **Lecture**: TR 9:30a-10:45a BUCHN 1920
+* **Lab** (50 minute discussion section) Wednesdays 9a, 10a, 11a, noon PHELPS 3525, ATTENDANCE REQUIRED.                                         
+
 
 
 # Required Resources
@@ -42,8 +40,8 @@ Introduction to computer program development for students with little to no prog
 * Collaboration is only permitted when specifically allowed for—otherwise, you must do your own work.
    * On most homework assignments  you may collaborate with at most one other person (who must be named).
 * Attendance is required at all lectures and labs (discussion sections) and is checked via participation using the iclickers
-  * I recognize that some absences (e.g. minor illnesses, mishaps, etc.) are unavoidable.  Litigating whether each of these is "excused" or not isn't a good use of anyone's time, so instead we just drop the lowest four grades from everyone's homework/in-class assignment grades.  In this way, absenses (or failure to turn in homework) does not unduly penalize your grade unless it becomes excessive.
-* <strong>You</strong> must turn in your homework using the homework mailbox for CS8 located in the copy room on the second floor of HFH building
+  * I recognize that some absences (e.g. minor illnesses, mishaps, etc.) are unavoidable.  Litigating whether each of these is "excused" or not isn't a good use of anyone's time, so instead we just drop the lowest three grades from everyone's homework/in-class assignment grades.  In this way, absenses (or failure to turn in homework) does not unduly penalize your grade unless it becomes excessive.
+* <strong>You</strong> must turn in your homework by TBD
 
 
 
@@ -114,9 +112,12 @@ The same is true of programming. Programming is not a series of facts to be memo
 &nbsp;
 </div>
 
+
+![Python cartoon](https://foo.cs.ucsb.edu/8wiki/LocalImages/python.jpg)
+
+(Image credit: Randall Munro http://xkcd.com/353/)
+
 # What you need to learn to become <br />a skilled beginning level programmer
-
-
 So, what is it that you need to know to be a skilled beginning-level programmer in Python? Here's the  list of what you'll need to be ready for CMPSC&nbsp;16 (aka CS16, the next programming course):
 
 <table border="1" cellspacing="1" cellpadding="1" id="topicTable">
@@ -197,13 +198,11 @@ A+ grades: These may be awarded to the very best performing students in the clas
 
 | Grade Item                                                                   | Percentage of Final Grade |
 |------------------------------------------------------------------------------|---------------------------|
-| Midterm (2)                                                                    | 20 %                      |
-| Lab Exams  (2)                                                                 | 20 %| 
+| Midterm (2)                                                                    | 30 %                      |
 | Final                                                                        | 30 %                      |
-| Hwks                                                                          |5%|
-| Labs                                                                          |13%|
-| Project  | 10 %    |
-| iclickers | 2 %   |
+| Hwks                                                                          |10%|
+| Labs                                                                          |30%|
+
 
 
 <div style="page-break-before:always;">
@@ -224,14 +223,14 @@ These things you have to turn in will be a combination of in-class
 activities, and homework completed outside of class, but handed in on
 paper during class.
 
-Missing homework/in-class activities: Drop the lowest 4
+Missing homework/in-class activities: Drop the lowest 3
 -------------------------------------------------------
 
 If you miss a class, you miss the opportunity for the points on that
 in-class assignment, or homework that was due. Period.
 
 There is no makeup. In lieu of providing a makeup opportunity, I will
-drop the lowest 4 homework/in-class-assignment grades (which may be
+drop the lowest 3 homework/in-class-assignment grades (which may be
 zeros if you miss an assignment.) Each homework and in-class-activity
 will be of equal value (100 pts).
 
@@ -330,9 +329,7 @@ Furthermore, for general academic support, students are encouraged to visit Camp
 
 <div style="page-break-before:always" markdown="1">
 
-![Python cartoon](https://foo.cs.ucsb.edu/8wiki/LocalImages/python.jpg)
 
-(Image credit: Randall Munro http://xkcd.com/353/)
 
 Standard Disclaimer
 -------------------

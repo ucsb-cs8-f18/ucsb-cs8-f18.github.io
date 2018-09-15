@@ -2,10 +2,11 @@
 title: CS8, Fall 2018, Mirza 
 ---
 
-# {{site.course}}, {{site.quarter}}
+<header>
+<h1> {{site.course}}, {{site.quarter}}</h1>
+</header>
 
-
-<div id="info" data-role="collapsible" data-collapsed="false">
+<div id="info" data-role="collapsible" data-collapsed="false" >
 <h2>Course Information</h2>
 <ul>
 {% for item in site.info %}
