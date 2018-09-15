@@ -4,6 +4,8 @@ title: CS8, Fall 2018, Mirza
 
 # {{site.course}}, {{site.quarter}}
 
+<img src="image/montypython.jpg">
+
 
 <div id="info" data-role="collapsible" data-collapsed="false">
 <h2>Course Information</h2>
