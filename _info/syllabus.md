@@ -19,6 +19,7 @@ Basic Facts
 * Textbook: "Introduction to Computing Using Python" - Ljubomir Perkovic, 2nd edition
 * iclicker remote for in class participation (purchase at the book store)
 
+
 Official UCSB Catalog Description
 ---------------------------------
 

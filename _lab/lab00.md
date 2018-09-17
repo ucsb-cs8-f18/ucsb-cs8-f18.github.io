@@ -2,12 +2,10 @@
 layout: lab
 num: lab00
 ready: true
-desc: "Getting Started"
-assigned: 2017-10-03 8:00:00.00-7
-due: 2017-10-06 17:00:00.00-7
-submit_cs_pnum: 824
+desc: "Getting started"
+assigned: 2018-10-03 8:00:00.00-7
+due: 2018-10-09 23:59:59.59-7
 ---
-
 
 # Introduction
 
@@ -20,12 +18,12 @@ By the time you have completed this lab, you should be able to:
 * use the computers in Phelps 3525 (and other labs like CSIL) to do basic things such as:
    * perform basic management of directories and files
    * create Python progams in IDLE 
-   * submit an assignment using the submit.cs system
+   * submit an assignment using the gradescope system
    
 This assignment is designed to make sure you are comfortable working in the 
 computing environment and know how to submit your work. It is mostly about
 mechanics, not concepts. As a result, this assignment is not particularly intellectually
-challenging.    Future labs will require quite a bit more thought!
+challenging. Future labs will require quite a bit more thought!
 
 # Step by Step Instructions
 
@@ -36,8 +34,7 @@ create a College of Engineering account (also known as a ECI account, or a CSIL 
 
 <https://accounts.engr.ucsb.edu/create/>
 
-We hope you did that&mdash;if so, you should be able to use that account to login on the computers
-in Phelps 3525, as well as the computers in the CSIL lab. 
+We hope you did that&mdash;if so, you should be able to use that account to login on the computers in Phelps 3525, as well as the computers in the CSIL lab. 
 
 If you ever forget the password to your ECI/CSIL account, you can reset it here:
 
@@ -45,7 +42,7 @@ If you ever forget the password to your ECI/CSIL account, you can reset it here:
 
 If your account doesn't work, ask a TA for assistance.
 
-Phelps 3525 is only available during your weekly scheduled discussion section and during Fall 2017, on Tuesdays 1-2:00pm, and Wednesdays 8-1pm.  
+Phelps 3525 is only available during your weekly scheduled discussion section and during open lab hours (see the lab and office hours calendars for details).
 
 At other times during the week, you can work in CSIL, the &quot;Computer Science Instructional Lab&quot;.
 
@@ -53,9 +50,7 @@ The CSIL lab, by the way, is on the ground floor of Harold Frank Hall.  The glas
 
 ## Step 2: Bring up a "terminal" 
  
-On the Linux systems, there are a lot of things we can do with pointing and clicking
-with the mouse, just like on Windows or Mac. But there are also many things we can
-only do with the command line, or can do more easily with the command line.
+On the Linux systems, there are a lot of things we can do with pointing and clicking with the mouse, just like on Windows or Mac. But there are also many things we can only do with the command line, or can do more easily with the command line.
 
 So, one of the first steps will often be to bring up a "Terminal" window&mdash;a window that gives us access to the Linux "command line".
 
@@ -65,11 +60,9 @@ So, one of the first steps will often be to bring up a "Terminal" window&mdash;a
 
 Here's how:
 
-* Find the Applications Menu at the top left of the screen
-* Select System Tools, then Terminal (the icon should look like the image shown at right)
-* A Terminal Window should pop up, looking something like the one shown below
-
-![terminal window](TerminalSession.png)
+* Find the Applications Menu at the top left of the screen.
+* Select System Tools, then Terminal (the icon should look like the image shown at right).
+* A Terminal Window should pop up.
 
 ## Step 3: Create some directories
 
@@ -179,12 +172,12 @@ In Python 3, this program is very short.  It looks like this:
 print ('Hello, World!')
 ```
 
-We will save the file under the name `hello.py`&mdash;it is important that is has exactly that name, or the submit.cs system will not accept your submission.
+We will save the file under the name `hello.py`&mdash;it is <strong>very important</strong> that is has exactly that name, or the gradescope system will not run your program correctly.
 
 That's it!   Now, you can also add, on the first line, a *comment* with your name, and information about the course, for example:
 
 ```python
-# Chris Gaucho, for CMPSC 8, Fall 2017
+# Chris Gaucho, for CMPSC 8, Fall 2018
 print ('Hello, World!')
 ```
 
@@ -196,43 +189,32 @@ Enter this program in IDLE, then save it under the name `hello.py`
 
 ## Step 7: Running your program.
 
-To run your program, select the "Run" option from the menu.  You should see the "Hello World!" message.
+To run your program, select the "Run=>Run Module" option from the menu. You should see the "Hello World!" message.
 
-I'll demonstrate the use of Idle in lecture, since its much easier to just follow along than to try to explain everything in a text document.   If you need a further demonstration, you can find one on YouTube.  For example: 
+I'll demonstrate the use of Idle in lecture, since its much easier to just follow along than to try to explain everything in a text document. If you need a further demonstration, you can find one on YouTube. For example: 
 [This video starting at 4:53](https://www.youtube.com/watch?v=kXbpB5_ywDw&t=4m53s)  (That video is for Python 3.1, but the stuff shown in the video is the same across all versions of Python 3.x).
 
+## Step 8: Uploading your program to Gradescope
 
-## Step 8: Uploading your program to submit.cs
+Next, we'll try submitting our program to Gradescope, which is a new autograder system we will utilize for this course. You'll get some immediate feedback on whether you did it properly.
 
-Next, we'll try submitting our program to submit.cs, which is an autograder system used by many Computer Science department courses at UCSB.    You'll get some immediate feedback on whether you did it properly.
+### Creating your Gradescope account
 
-### Creating your submit.cs account
+I have manually added everyone (using your @umail.ucsb.edu accounts) currently enrolled in the course to the Gradescope system. You should have received an email from the Gradescope system asking you to create a password. Once you follow the instructions to set your password, you should have access to the autograding system. You should see "CMPSC 8" in your Fall 2018 Courses.
 
-You may have already done the steps in this section--an email was sent out through Gauchospace inviting you to do so.   If you have, you may skip this section.
+The lab assignment "Lab00" should appear in your Gradescope dashboard in CMPSC 8. If you haven't submitted anything for this assignment yet, Gradescope will prompt you to upload your files. This prompt is shown below:
 
-Otherwise, to create your submit.cs account, please take the following steps:
+![Gradescope upload](Gradescope_upload.png)
 
-1. Navigate to the following website: https://submit.cs.ucsb.edu
-1. Click on the "Create User" button, and enter your Umail address.
-1. Check your umail for a message with additional instructions—follow the instruction in the email to select a password and activate your account.
-1. Go back to the website: https://submit.cs.ucsb.edu and login with your account.
-1. Select "Join Class", and click on the link for CS8_f17
+You either can navigate to your file(s) or "drag-and-drop" them into the "Submit Programming Assignment" window.
 
-At that point, you should be good to go.
+If you already submitted something on Gradescope, it will take you to their "Autograder Results" page. There is a "Resubmit" button on the bottom right that will allow you to update the files for your submission.
 
-### Navigate to the page for submitting your assignment
+For this lab, if everything is correct, you'll see a successful submission passing all of the autograder tests shown below.
 
-The page for submitting {{page.num}} is here: <https://submit.cs.ucsb.edu/form/project/{{page.submit_cs_pnum}}/submission>
+![Gradescope results](Gradescope_results.png)
 
-Navigate to that page, and upload your `hello.py` file.
-
-Note that if you try to upload a file with a name that does not match EXACTLY the name `hello.py`, the system will not allow you to do it.  The name cannot be, for example, `Hello.py`, or `HelloWorld.py`, or `hell0.py` (note the zero as in '007' instead of the letter 'o' as in octopus.)  Only `hello.py` is permitted.   This will always be the case with submit.cs: it is very picky about the filename that it wants.
-
-Once you upload it, you should get a page that shows your submission is pending.
-
-Refresh that page, and you should get one that indicates with either red, or green, whether the test cases for your code passed or failed.
-
-If you got all green, and 100 points, then you passed, and you are finished with {{{{page.num}}!
+If the tests don't pass, you may get some error message that may or may not be obvious at this point. Don't worry - if the tests didn't pass, take a minute to think if your print statement is <strong>EXACTLY</strong> like stated in the lab instructions (including the same capitalization, spaces, punctuation, etc.) and the file name is <strong>EXACTLY</strong> `hello.py`. If your tests didn't pass and you're still not sure why you're getting the error, feel free to ask your TA. 
 
 ## Final Step:  Log Out
 
@@ -245,4 +227,3 @@ Here's how:
 
 * Find the System Menu at the top of the screen.
 * Select Log Out
-
