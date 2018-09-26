@@ -3,7 +3,7 @@ num: "Lecture 1"
 desc: "Orientation to the course"
 pdfurl: /lectures/pdf/lect1.pdf
 ready: true
-date: 2017-09-27 9:30:00.00-7:00
+date: 2018-09-27 9:30:00.00-7:00
 ---
 
 
