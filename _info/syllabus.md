@@ -227,8 +227,13 @@ paper during class.
 Missing homework/in-class activities: Drop the lowest 3
 -------------------------------------------------------
 
-If you miss a class, you miss the opportunity for the points on that
+Homeworks will be distributed every Tuesday in lecture, and they are due during your scheduled lab section on Wednesdays.
+
+Labs are assigned every Wednesday during your section and are due at midnight the following Tuesday.
+
+If you miss a class or section, you miss the opportunity for the points on that
 in-class assignment, or homework that was due. Period.
+
 
 There is no makeup. In lieu of providing a makeup opportunity, I will
 drop the lowest 3 homework/in-class-assignment grades (which may be

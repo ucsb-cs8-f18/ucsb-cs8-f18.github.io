@@ -23,9 +23,10 @@ layout: null
 
 .bg-img-2 {
   /* The image used */
-  background-image:  url("images/python-header.jpg");
+  background-image:  url("images/python-header.png");
+  height: 200px;
+  max-height: 200px;
 
-  min-height: 300px;
 
   /* Center and scale the image nicely */
   background-position: top;
