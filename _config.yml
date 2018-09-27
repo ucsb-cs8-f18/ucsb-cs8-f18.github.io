@@ -28,7 +28,7 @@ sections: "9am,&nbsp;10a,&nbsp;11a&nbsp;or&nbsp;noon"
 
 cal_dates: >
   [
-  {"label":"First day of instruction", "date":"2018-10-02" },
+  {"label":"First day of instruction", "date":"2018-09-27" },
   {"label":"Last day to Add","date":"2018-10-03" },
   {"label":"Last day to Add with code","date":"2018-10-17" },
   {"label":"Drop w/ Full Refund","date":"2018-10-03" },
