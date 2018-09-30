@@ -7,7 +7,7 @@ date: 2018-10-04 9:30:00.00-7:00
 
 ## Today's lecture:
 
-* Working with more complex types (lists, tuples, named tuples)
+* Working with collections (lists, tuples, named tuples)
 * Functions: Using existing ones, defining new functions
 
 ## Concept Questions
