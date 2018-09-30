@@ -132,7 +132,7 @@ To draw the outer rectangle your main task if to calculate the location of the b
 
 A correct implementation should produce the following output:
 
-![basicDrawing](basicRect.PNG){:height="200px"}
+![basicDrawing](basicRect.png){:height="200px"}
 
 ## Step 4: Submit your code on gradescope
 
