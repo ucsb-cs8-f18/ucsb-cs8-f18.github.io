@@ -2,7 +2,7 @@
 num: "Lecture 2"
 desc: "Elements of simple programs in Python"
 ready: true
-date: 2017-10-02 9:30:00.00-7:00
+date: 2018-10-02 9:30:00.00-7:00
 ---
 
 
@@ -22,8 +22,8 @@ date: 2017-10-02 9:30:00.00-7:00
 
 * Python as a calculator
 * Storing data using variables
+* More than just a calculator (working with other data types)
 * Interacting with a program using `print` and `input`
-* More than just a calculator (working with other types)
  
 
 ### Python as a calculator
