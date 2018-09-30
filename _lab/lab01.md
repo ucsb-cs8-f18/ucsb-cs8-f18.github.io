@@ -104,7 +104,7 @@ Save the file as {{page.num}}.py, and run it.   You should see a turtle appear. 
 
 Add more code to your file to complete drawing the inner rectangle. Run your program to make sure you get an output similar to the one shown below:
 
-![one Rect](oneRect.PNG){:height="200px"}
+![one Rect](oneRect.png){:height="200px"}
 
 If you get an error, don't panic - just raise your hand and one of the TAs or tutors will help you out.
 
