@@ -22,7 +22,7 @@ You'll use the Python editor to write a program that draws two rectangles, where
 
 The output produced when you run your program is shown in the following figure.
 
-![basicDrawing](basicRect.PNG){:height="200px"}
+![basicDrawing](basicRect.png){:height="200px"}
 
 Your drawing should satisfy the following requirements:
 
