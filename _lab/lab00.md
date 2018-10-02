@@ -12,6 +12,11 @@ due: 2018-10-09 23:59:00.00-7
 
 Your first lab for this week is an introduction to programming on CSIL and in the Computer Science lab. You will write your first Python program that will print a specific text output on your computer display.
 
+
+## Submit ic00
+
+In the next few labs you will work with a programming partner. To help us match you with a suitable partner, please submit [ic00](/hwk/ic00/) to the TA in your section.
+
 ## Goals for this lab
 
 By the time you have completed this lab, you should be able to:
@@ -27,6 +32,7 @@ mechanics, not concepts. As a result, this assignment is not particularly intell
 challenging. Future labs will require quite a bit more thought!
 
 # Step by Step Instructions
+
 
 ## Step 1: Verify your College of Engineering Account(s)
 
