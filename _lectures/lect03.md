@@ -1,13 +1,13 @@
 ---
 num: "Lecture 3"
-desc: "Python Lists, Tuples, Namedtuples, Functions"
+desc: "Python Strings, Lists and Functions"
 ready: false
 date: 2018-10-04 9:30:00.00-7:00
 ---
 
 ## Today's lecture:
 
-* Working with collections (lists, tuples, named tuples)
+* Working with strings and lists
 * Functions: Using existing ones, defining new functions
 
 ## Concept Questions
@@ -27,6 +27,30 @@ Semantics: Meaning, what it does.
 syntactically incorrect PI equals 3.14159
 semantically incorrect PI = "apple"
 '''
+
+'''
+
+'''
+Strings: Collections of characters (a-z, A-Z, 0-9 + special characters)
+Indexing strings and substrings
+    - In a string, we can extract certain pieces from it.
+    - This is known as "parsing" a string
+    - Positions in a string start at index 0
+
+schoolName = "UCSB"
+print(len(schoolName)) # 4
+print(type(schoolName)) # str
+print(schoolName[0])
+print(schoolName[3])
+#print(schoolName[4]) #ERROR
+print(schoolName[-1]) # B - refers to the last index
+#print(schoolName[-5]) # ERROR
+
+#Extract a substring
+print(schoolName[1:3]) # from position 1 up to (but not
+                       # including) position 3
+
+print("Does", school, "contain 'S'?", 'S' in school)
 
 '''
 Lists
@@ -65,70 +89,6 @@ names.append(2018)
 print(names)
 names.sort() # ERROR, incompatible types 2018 is int
 print(names)
-'''
-''' Tuples
-    - A tuple is similar to a list, but with small
-    (but important) differences.
-    - .sort() works for lists, but not tuples
-    - inherently, tuples and lists are different,
-    but logically they seem the same.
-    - can change an element in a list, but can't
-    change them in a tuple.
-'''
-
-'''
-#Examples
-oddNumbers = (1, 3, 5, 7)
-print(oddNumbers)
-print(type(oddNumbers))
-print(oddNumbers[2]) #5
-
-oddNumbers2 = [1, 3, 5, 7]
-oddNumbers2[2] = 9
-print(oddNumbers2)
-# oddNumbers[2] = 9 ERROR, cannot change item in tuple
-#print(oddNumbers)
-
-oddNumbers = (1, 3, 9, 7)
-print(oddNumbers)
-'''
-''' Namedtuples
-    - Package heterogenous things into a multi-
-    attribute item
-    - We can represent more complex data into
-    specific types
-    - Ex: Students
-        - Name, perm, major, DOB, address, GPA,
-        full-time / part-time, international, ...
-    - Creating multi-attribute things is the basis
-    of object oriented programming.
-'''
-'''
-#Example on using namedtuples
-
-# Step 1: Allow your program to use namedtuples.
-from collections import namedtuple
-
-# Step 2: Design your object
-Student = namedtuple("Student", "name perm major GPA")
-# Parameters of function, 1st is name of the namedtuple
-# type (Student).
-# 2nd parameter is a string containing the names of
-# attributes
-
-# Step 3: Create objects
-s1 = Student("John Doe", 1234567, "CS", 3.5)
-s2 = Student("Jane Doe", 7654321, "MUSIC", 3.9)
-
-print("Name of s1:", s1.name)
-print("Perm of s1:", s1.perm)
-print("GPA of s2:", s2.GPA)
-print(s1)
-print(s2)
-print(type(s1))
-'''
-
-''' Defining Functions
 '''
 
 # Function definition
