@@ -217,53 +217,9 @@ Save and run it. Then call the function from the Python shell as follows.
 
 This is just one possible solution. As you continue through this course, you will soon discover that there are many different ways to solve any problem. Computer Scientists almost always care about *correct* solutions that run the fastest on any computer - in fact there is a whole field within CS dedicated to finding such solutions - its the field of algorithms. Good programmers take a lot of care to express their algorithms in code in the simplest and most understandable way. We will strive towards this goal in general. For now, our goal is to come up with correct solutions.
 
-Below is an alternate implementation for drawing a rectangle. The algorithm is slightly different: It first computes the absolute location of the 4 corners of the rectangle and then commands the turtle to go to the four locations in a specific order. To move the turtle to any location (x,y), we will use a new turtle method: `t.goto(x, y)`. Here is one possible implementation of this algorithm. Name this function: drawRectangle_2. Place it below the code for the definition of `drawRectangle_1`.
+Think of an alternate solution and discuss it with your lab partner. You don't have to implement it, but it you do, define a new function drawRectangle_2(t) and put your implementation within that function.
 
-```
-def drawRectangle_2(t):
-    """
-    draw a rectangle with width 50, height 100, tilt 0, pen color green and fill color yellow . Use a turtle called t to create the drawing
-    """
-
-    # Calculate the coordinates for the four corners of the rectangle
-
-    x1 = t.xcor()
-    y1 = t.ycor()
-
-    x2 = x1 + 50
-    y2 = y1
-
-    x3 = x2
-    y3 = y2 + 100
-
-    x4 = x1
-    y4 = y1 + 100
-
-    
-    t.color("green", "yellow") # set the pen and fill colors
-    t.begin_fill()
-    
-    # Command the turtle to visit the four corners in order
-    t.goto(x2, y2)
-    t.goto(x3, y3)
-    t.goto(x4, y4)
-    t.goto(x1, y1)
-    
-    t.end_fill()
-
-
-```
-
-Save and run it. Then call the function from the Python shell as follows:
-
-```
->>> drawRectangle_2(chris)
-```
-
-You should see an identical rectangle as the one drawn by `drawRectangle_1(chris)`.
-
-
-## `drawRectangle_2(chris)` vs.`def drawRectangle_2(t):` 
+## `drawRectangle_1(chris)` vs.`def drawRectangle_1(t):` 
 
 Note again: we use `chris`, the name of an actual instance of a `Turtle` object when we are *calling* the function.
 
@@ -307,8 +263,7 @@ Or like this with a turtle named `taylor`:
 drawRectangle(taylor, 100, 50, 30, "blue","green")
 ```
 
-Write the above code below the previous function definitions. You may use the code for any of the previous versions as a starting point, although one of those versions is easier to extend to case where you want to draw a rectangle at given orientation. So, think through your algorithm for the general case and select the starting implementation that is the easiest to build on.
-
+Write the above code below the previous function definition. You may use the code for the previous version as a starting point.
 
 Next we want to draw two rectangles at different locations. To make sure that you can do that, change the function call
 at the bottom of the file (inside the main) from something like this:
@@ -370,9 +325,6 @@ import math
 ```
 def drawRectangle_1(t):
     # code for the first version of drawing a rectangle
-
-def drawRectangle_2(t):
-    # code for the second version
 
 def drawRectangle(t,width, height, tilt, penColor, fillColor):
     # code for the final version of drawing a rectangle 
@@ -482,11 +434,6 @@ It should be structured in a way that there is
 def drawRectangle_1(t):
    " docstring here "
    pass
-
-
-def drawRectangle_2(t):
-   " docstring here "
-   pass      
 
    
 def drawRectangle(t,width, height, tilt, penColor, fillColor):
