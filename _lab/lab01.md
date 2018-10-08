@@ -24,13 +24,13 @@ What you'll be drawing
 You'll be writing functions to produce two basic shapes: a rectangle and a triangle. Each function takes parameters that specify the size, pen color, and fill color of that shape. The `drawRectangle` function additionally allows us to specifiy the tilt of the rectangle relative to the x-axis in degrees. The function definitions are given below:
 
 -   `drawRectangle(t, width, height, tilt, penColor, fillColor)`
--   `drawTriangle(t, base, height,  penColor, fillColor)`
+-   `drawTriangle(t, side,  penColor, fillColor)`
 
 The parameter `t` is a turtle that is used in that function to draw something.
 
 The output produced when each function is callled with specific parameter values is shown in the following figure.
 
-![basicShapes](basicShapes.png){:height="400px"}
+![basicShapes](basicShapes.png){:height="300px"}
 
 The above drawings are the result of calling either <code>drawRectangle(...)</code> or <code>drawTriangle(...)</code>. In each drawing, the turtle stamp shows the initial location and heading of the turtle right before the corresponding function is called. For example the top left drawing is the output of the following line of code, when the turtle named `chris` is at the top left corner:
 
@@ -52,12 +52,12 @@ drawRectangle(t=chris, width = 50, height = 100, tilt = 90, penColor = "red", fi
 
 Similarly, the drawings on the next row are the result of repeatedly calling **<code>drawTriangle()</code>** with the following parameter values (in each case, the `t` parameter which is the turtle is named `chris`):
 
-|   <code>base</code>   |  <code>height</code>     |   <code>penColor</code> |  <code>fillColor</code> |   
+|   <code>side</code>   |    <code>penColor</code> |  <code>fillColor</code> |   
 |-----------------------|-------------------------| ------------------------| ----------------------- |
-|   50                  |   100                   |  <code> "red" </code>  |  <code> ""</code>       |
-|   50                  |   100/2                   |  <code> "green" </code>|  <code> "yellow"</code> |
-|   50                  |   100/4                   |  <code> "red"</code>   |  <code> "red"</code>    |
-|   50                  |   100/8                   |  <code> "blue"</code>  |  <code> "blue"</code>   |
+|   30                  |     <code> "red" </code>  |  <code> ""</code>       |
+|   40                  |     <code> "green" </code>|  <code> "yellow"</code> |
+|   50                  |    <code> "red"</code>   |  <code> "red"</code>    |
+|   100                  |     <code> "blue"</code>  |  <code> "blue"</code>   |
 
 
 In a later project, we will use these functions to create more interesting drawings. 
@@ -304,10 +304,9 @@ When you run the code, you should see the following output, with the rectangles 
 
 If you get the above output, then you are ready to move to the next step.
 
-## Step 5: Add the function to draw an isosceles triangle
+## Step 5: Add the function to draw an equilateral triangle
 
-Now we are going to add two other functions: `drawTriangle` and `drawTwoTriangles`. The first  function should draw an [isosceles triangle](https://en.wikipedia.org/wiki/Isosceles_triangle) given the base, height, pen color and fill color. The base of the triangle should be along the x-axis as shown in the figure on top of this page. For the drawTriangle function, you will need the trigonometric functions in the Python math module. Add a line to import the math module at the top of the file.
-
+Now we are going to add two other functions: `drawTriangle` and `drawTwoTriangles`. The first  function should draw an [equilateral triangle](https://en.wikipedia.org/wiki/Equilateral_triangle) given the length of a side, pen color and fill color. The base of the triangle should be along the x-axis as shown in the figure on top of this page. 
 Keep the code that has the actual function calls *at the bottom* of the file, inside the `if __name__=='__main__':` block.
 
 The order should be:
@@ -316,7 +315,6 @@ The order should be:
 
 ```
 import turtle
-import math
 
 ```
 
@@ -332,7 +330,7 @@ def drawRectangle(t,width, height, tilt, penColor, fillColor):
 def drawTwoRectangles(t):
     # Code for drawing two rectangles is here
 
-def drawTriangle(t,base, height, penColor, fillColor):
+def drawTriangle(t,side penColor, fillColor):
     # Code for drawTriangle is here
 
 def drawTwoTriangles(t):
@@ -365,33 +363,15 @@ Remember, before implementing a new function, you need to come up with a plan th
 
 
 1. Orient the turtle at 0 degrees with respect to the x-axis
-2. Move forward by the number of units specified by the parameter "base"
+2. Move forward by the number of units specified by the parameter "side"
 3. Turn left by some angle that you must calculate in advance
-4. Move forward by the number of units corresponding to the length of one of the sides of the isosceles triangle that is not the base. You will have to calculate this as well.
+4. Move forward by the number of units specified by the parameter "side"
 5. Turn left by some angle that you need to calculate
-6. Move forward by the same amount that you calculated in step 4, which should bring you back to your initial position.
+6. Move forward by the number of units specified by the parameter "side"
 7. Orient the turtle at 0 degrees with respect to the x-axis
 
-You can choose to go with the above algorithm or come up with your own. The above algorithm can be implemented in code using a series of `t.forward()` and `t.left()` commands. You may find this easier compared to an algorithm where you calculate the absolute coordinates of the three corners of the triangle and then use a series of goto statements. The difficulty there is just in the trignometry part and not necessarily the code. Feel free to use any algorithm that appeals to you.
+You can choose to go with the above algorithm or come up with your own. The above algorithm can be implemented in code using a series of `t.forward()` and `t.left()` commands. You may find this easier compared to an algorithm where you calculate the absolute coordinates of the three corners of the triangle and then use a series of goto statements. The difficulty there is just in the trignometry part and not necessarily the code. If you would like to use trigonometry functions you must import the math module. Feel free to use any algorithm that appeals to you.
 
-
-No matter which algorithm you choose, you will need to plan ahead. For example, if you choose to go with the algorithm we have provided, you have to calculate the turn angles in steps 3 and 5, as well as length of the equal sides of the isosceles triangle. Use [Google](www.google.com) to check your trignometric formulas and use the [the Python documentation on the math module](https://docs.python.org/3/library/math.html) to find the trigonometric functions that Python provides you. Scroll down to the section on trigonometric functions. This will allow you to translate your equations to Python expressions and assignment statements. The trig functions return the result in radians. You can use the degrees() function to convert the result from radians into degrees. 
-
-For example, recollect the Right Triangle shown below with base 'b' and height 'a', and the length of the longest side denoted as 'c':
-
-![RightTriangle](rightTriangle.png){:height="200px"}
-
-
-You may remember from high school math that the length of the longest side 'c' can be computed using the Pythogorean theorm as follows:
-
-![Equation](Equation.png){:height="50px"}
-
-The above is a mathematical fact expressed as an equation. You can use this formula to *compute* the length of the longest side given the other two sides 'a' and 'b' in your Python program and assign the resulting value to a variable named 'c'. The line of Python code that does that is as follows:
-
-```
-c = math.sqrt(a**2 + b**2)     
-``` 
-In the above code, to the right of the <code>=</code> sign is a Python expression that computes something. The result of the computation is assigned to the variable 'c' on the left. So while in a math equation its okay to switch out the expressions on the left and right hand side of the equation, doing so in Python would result in a error. Be sure you understand the difference between equations and Python assignment statements. Ask a TA/tutor for further clarification if you need to.
 
 
 Now go ahead place the following code below your other functions and the fill in the code for the drawTriangle() function:
@@ -399,9 +379,9 @@ Now go ahead place the following code below your other functions and the fill in
 ```
 
     
-def drawTriangle(t, base, height, penColor, fillColor):
+def drawTriangle(t, side, penColor, fillColor):
     """
-    draw a triangle using turtle t, with a given base, height, penColor and fillColor,
+    draw a equilateral triangle using turtle t, with a given side, penColor and fillColor,
     with the current location of the turtle being the 
     lower left corner. The base of the triangle should be at 0 degrees with respect to the x-axis. 
     Do not assume anything about the initial orientation of the turtle. 
@@ -445,7 +425,7 @@ def drawTwoRectangles(t):
    " docstring here "
    pass
 
-def drawTriangle(t,base, height, penColor, fillColor):
+def drawTriangle(t, side, penColor, fillColor):
    " docstring here "
    pass
 
