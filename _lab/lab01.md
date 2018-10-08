@@ -439,7 +439,7 @@ def drawTwoTriangles(t):
    sets up a turtle.  Call your turtle anything you like (`mary`,`chris`, etc.)
    
 
-5. Finally, still indented inside that block, code that calls those functions to draw two non overlapping rectangles and two triangles as specified before.
+5. Finally, still indented inside that block, code that calls those functions to draw two non overlapping rectangles and two triangles as specified before. Your code must draw both for full credit
 
 If you code meets all those criteria, you should be in good shape to submit it.
 
