@@ -10,7 +10,7 @@ Basic Facts
 * **Course Web Site**: <http://ucsb-cs8.github.io>
 * **Instructor**:  [Diba Mirza](http://www.cs.ucsb.edu/~dimirza)
 * **Lecture**: TR 9:30a-10:45a BUCHN 1920
-* **TAs**: Hongmin Wang(hongmin_wang@cs.ucsb.edu), Ryan Su(pinwensu@cs.ucsb.edu) (contact via Piazza.com)
+* **TAs**: Hongmin Wang(hongmin_wang@cs.ucsb.edu) Ryan Su(pinwensu@cs.ucsb.edu) (contact via Piazza.com)
 * **Lab** (50 minute discussion section) Wednesdays 9a, 10a, 11a, noon PHELPS 3525, ATTENDANCE REQUIRED.                                         
 
 
