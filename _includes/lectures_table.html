@@ -1,15 +1,17 @@
 <table id="lectures_table" class="asn_table">
 <tr>
-  <th>num</th>
-  <th>date</th>
-  <th>description</th>
+  <th> num </th>
+  <th> date </th>
+  <th> description </th>
+  <th> pdf </th>
 </tr>
 
 {% for lect in site.lectures %}
-<tr>
+<tr class={% if lect.ready %}"ready"{% else %}"not-ready"{% endif %} >
   <td><a href="{{lect.url}}">{{ lect.num }}</a></td>
   <td>{{ lect.date | date: "%a %m/%d" }}</td>
   <td>{{ lect.desc }}</td>
+  <td class={% if lect.ready %}"lect_num"  ><a href="{{lect.pdfurl}}" data-ajax="false">pdf</a>{% else %}"lect_num"  ><a href="" data-ajax="false"></a>{% endif %}</td>
 </tr>
 {% endfor %}
 </table>

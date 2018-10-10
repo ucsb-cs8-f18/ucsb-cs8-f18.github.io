@@ -1,6 +1,7 @@
 ---
 num: "Lecture 2"
 desc: "Elements of simple programs in Python"
+pdfurl: /lectures/pdf/lect02.pdf
 ready: true
 date: 2018-10-02 9:30:00.00-7:00
 ---

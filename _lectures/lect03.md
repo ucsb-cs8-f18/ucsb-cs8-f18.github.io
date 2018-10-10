@@ -1,7 +1,8 @@
 ---
 num: "Lecture 3"
 desc: "Python Strings, Lists and Functions"
-ready: false
+pdfurl: /lectures/pdf/lect03.pdf
+ready: true
 date: 2018-10-04 9:30:00.00-7:00
 ---
 
