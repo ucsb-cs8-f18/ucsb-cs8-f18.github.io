@@ -10,8 +10,6 @@ date: 2018-10-09
 
 * [Link to all code written in lecture](https://github.com/ucsb-cs8-f18/cs8-f18-lecture-code)
 
-
-
 # Learning Goals
 * Modules - how to use them and look up documentation
 * Designing functions that are READABLE, REUSABLE and DRY (loops)

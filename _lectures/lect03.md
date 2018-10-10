@@ -6,6 +6,11 @@ ready: true
 date: 2018-10-04 9:30:00.00-7:00
 ---
 
+
+# Resources from lecture
+
+* [Link to all code written in lecture](https://github.com/ucsb-cs8-f18/cs8-f18-lecture-code)
+
 ## Today's lecture:
 
 * Working with strings and lists
