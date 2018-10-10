@@ -289,7 +289,7 @@ def drawTwoRectangles(t):
     t.seth(0)   # Set the absolute heading of the turtle to 0 degrees (pointing east)
 
 
-    # Move the turtle right by 200 units without leaving a trail 
+    # Move the turtle right by 100 units without leaving a trail 
     t.up()     
     t.forward(100)  
     t.down()
@@ -334,7 +334,7 @@ def drawTriangle(t,side penColor, fillColor):
     # Code for drawTriangle is here
 
 def drawTwoTriangles(t):
-    # Code to draw two isosceles triangles of different sizes and colors
+    # Code to draw two equilateral triangles of different sizes and colors
      
 ```
 
