@@ -3,7 +3,7 @@ num: "Lecture 4"
 desc: "Python Modules and Turtle Graphics"
 pdfurl: /lectures/pdf/lect04.pdf
 ready: true
-date: 2018-10-09 
+date: 2018-10-09 9:30:00.00-7:00
 ---
 
 # Resources from lecture
