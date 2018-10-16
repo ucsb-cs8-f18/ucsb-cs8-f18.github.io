@@ -1,6 +1,6 @@
 ---
 num: "Lecture 5"
-desc: "Print vs. Return, Immutable vs. Immutable"
+desc: "Print vs. Return, Mutable vs. Immutable"
 pdfurl: /lectures/pdf/lect05.pdf
 ready: true
 date: 2018-10-11 9:30:00.00-7:00
