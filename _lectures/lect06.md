@@ -5,7 +5,7 @@ pdfurl: /lectures/pdf/lect06.pdf
 ready: true
 date: 2018-10-16 9:30:00.00-7:00
 ---
-
+```python
 
 ''' Python Testing '''
 
