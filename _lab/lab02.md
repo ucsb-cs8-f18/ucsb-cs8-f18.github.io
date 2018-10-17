@@ -506,7 +506,7 @@ convert.py ....
 
 At that point, you are ready to submit your work to Gradescope.
 
-# Step 9: Submit your `convert.py` file to Gradescope
+# Step 9: Submit your `convert.py` file to Gradescope as a group
 
 Navigate to the Lab assignment "Lab02" and upload your `convert.py` similar to how you submitted `hello.py` for Lab00 and Lab01. Gradescope will check if your `fToC(fTemp)` and `cToF(cTemp)` functions are correct. If your tests do not pass, go back to these functions and double-check your conversion formulas and function syntax.
 
