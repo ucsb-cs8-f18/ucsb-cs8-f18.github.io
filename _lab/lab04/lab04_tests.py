@@ -1,7 +1,7 @@
-# lab03_tests.py
+# lab04_tests.py
 
 
-from lab03 import notStringContainingR
+from lab04 import notStringContainingR
 
 # Tests for notStringContainingR
 def test_notStringContainingR_1():
@@ -20,7 +20,7 @@ def test_notStringContainingR_5():
     assert notStringContainingR(3.14) == True
 
 ####################
-from lab03 import hasVowel
+from lab04 import hasVowel
 
 # Tests for hasVowel
 def test_hasVowel_1():
@@ -39,7 +39,7 @@ def test_hasVowel_5():
     assert hasVowel("frEE") == True
 
 ####################
-from lab03 import isNumber
+from lab04 import isNumber
 
 # Tests for isNumber
 def test_isNumber_1():
@@ -58,7 +58,7 @@ def test_isNumber_5():
     assert isNumber([0]) == False
 
 ####################
-from lab03 import onlyContainsStrings
+from lab04 import onlyContainsStrings
 
 # Tests for onlyContainsStrings
 def test_onlyContainsStrings_1():
@@ -77,7 +77,7 @@ def test_onlyContainsStrings_5():
     assert onlyContainsStrings("python") == False
 
 ####################
-from lab03 import contains
+from lab04 import contains
 
 # Tests for contains
 def test_contains_1():
@@ -96,7 +96,7 @@ def test_contains_5():
     assert contains((1,2), [1, 2, "3", (1,2)]) == True
                     
 ####################
-from lab03 import abbreviate
+from lab04 import abbreviate
 
 # Tests for abbreviate
 def test_abbreviate_1():
@@ -115,7 +115,7 @@ def test_abbreviate_5():
     assert abbreviate(["A", "T"]) == ""
 
 ####################
-from lab03 import hasMultiplesOf
+from lab04 import hasMultiplesOf
 
 # Tests for hasMultiplesOf
 def test_hasMultiplesOf_1():
@@ -134,7 +134,7 @@ def test_hasMultiplesOf_5():
     assert hasMultiplesOf(5, []) == False
 
 ####################
-from lab03 import countEvens
+from lab04 import countEvens
 
 # Tests for countEvens
 def test_countEvens_1():
@@ -153,7 +153,7 @@ def test_countEvens_5():
     assert countEvens([1.0,2.0,3.0,4.0,5.0,6.0,7.0,-2.0]) == 4
 
 ####################
-from lab03 import computeGrade
+from lab04 import computeGrade
 
 # Tests for computeGrade
 def test_computeGrade_1():
@@ -172,7 +172,7 @@ def test_computeGrade_5():
     assert computeGrade(-1) == ""
 
 ####################
-from lab03 import expensiveBooks, Book
+from lab04 import expensiveBooks, Book
 
 b1 = Book("Title1", "Author1", 5.99)
 b2 = Book("Title2", "Author2", 0.99)
