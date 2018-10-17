@@ -1,12 +1,12 @@
 # Student(s): (insert name and perm number here)
 
 # This file contains several incomplete function definitions with stub
-# values. Lab03_tests.py have tests to check if the functions are correct.
+# values. Lab04_tests.py have tests to check if the functions are correct.
 # Your assignment is to complete each function according to the
 # functions' descriptions.
 #
 # Once you complete a function, use pytest on the test functions
-# in lab03_tests.py to see if your functions are working correctly
+# in lab04_tests.py to see if your functions are working correctly
 
 def notStringContainingR(word):
     '''
