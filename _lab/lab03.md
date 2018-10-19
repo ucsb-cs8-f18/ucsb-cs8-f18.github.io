@@ -215,7 +215,7 @@ Once this is done, then:
 * test your code with "Run Module" to make sure your code compiles without errors (i.e. no red messages).
 * use `python3 -m pytest {{page.num}}.py -k areaTriangle` to run just the test cases for the `areaRect` function (there should be three of them, and three skipped test cases for perimRect).
 
-Once everything passes correctly with `pytest`, submit your `{{page.num}}.py` file to Gradescope again to see if your submission passes the `areaTriangle` tests. You should see that you now have 40/60 points if the `perimRect` and `areaTriangle` tests pass. *Remember to add your partner to Group Members for this submission on Gradescope if applicable.*
+Once everything passes correctly with `pytest`, submit your `{{page.num}}.py` file to Gradescope again to see if your submission passes the `areaTriangle` tests. You should see that you now have 100/100 points if the `perimRect` and `areaTriangle` tests pass. *Remember to add your partner to Group Members for this submission on Gradescope if applicable.*
 
  
 
