@@ -217,36 +217,9 @@ Once this is done, then:
 
 Once everything passes correctly with `pytest`, submit your `{{page.num}}.py` file to Gradescope again to see if your submission passes the `areaTriangle` tests. You should see that you now have 40/60 points if the `perimRect` and `areaTriangle` tests pass. *Remember to add your partner to Group Members for this submission on Gradescope if applicable.*
 
-# Step 8: Write and test a function using namedtuples.
+ 
 
-In this step, you will write a function that computes the price of `n` copies of a namedtuple representing a Book object. Copy and paste the following code in your {{page.num}}.py file.
-
-```
-from collections import namedtuple
-
-Book = namedtuple("Book", "title author price")
-b1 = Book("Ready Player One", "Ernest Cline", 16)
-```
-
-Recall from lecture, this is how we defined a Book object with a title, author, and price attribute. We construct a specific book representing the Ready Player One book written by Ernest Cline that costs 16 dollars. We store this specific book representation in the variable `b1`. 
-
-Using this information, write the function `computePrice(n, book)` that returns the price of `n` copies of a book. Similar to `perimRect` and `areaTriangle` functions, write a brief comment in your `computePrice` function describing what the function does.
-
-Write three test functions to test if `computePrice` works as expected. The code for the first test case looks like this
-
-```
-def test_computePrice_1():
-	assert computePrice(0, b1) == 0
-```
-
-Write two more test cases, `test_computePrice_2` and `test_computePrice_3` with different values for `n`. Be sure to test if your code works with "Run Module" and use `python3 -m pytest {{page.num}}.py -k computePrice` to run just the test cases for the `computePrice` function.
-
-Once everything passes correctly with `pytest`, submit your `{{page.num}}.py` file to Gradescope again to see if your submission passes the `computePrice` tests. You should see that you now have 60/60 points if the `perimRect`, `areaTriangle`, and `computePrice` tests pass. *Remember to add your partner to Group Members for this submission on Gradescope if applicable.*
-
-Even though Gradescope shows 60/60 if everything works correctly, the lab is not done yet. 
-
-
-# Step 10: Uploading your files to Gradescope
+# Step 8: Uploading your files to Gradescope
 
 Navigate to the Lab assignment {{page.num}} on Gradescope and upload your `{{page.num}}.py` and `{{page.num}}_face.py`. Even though Gradescope will not auto-check your drawing, you must upload {{page.num}}_face.py file to receive credit for this step. *Remember to add your partner to Group Members for this submission on Gradescope if applicable. At this point, if you worked in a pair, it is a good idea for both partners to log into Gradescope and see if you can see the uploaded files for {{page.num}}.*
 
