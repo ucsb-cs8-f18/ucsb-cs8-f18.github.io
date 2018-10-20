@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab03
-ready: false
+ready: true
 desc: "Writing functions and tests"
 assigned: 2018-10-24 8:00:00.00-7
 due: 2018-10-30 23:59:59.59-7
