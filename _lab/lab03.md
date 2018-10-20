@@ -46,7 +46,7 @@ Once you and your partner are in agreement, choose an initial driver and navigat
 
 # Step 1: Verify that `pytest` is working on the machine you plan to work on
 
-Similar to lab01, you can check whether pytest is installed by typing in the following command in the Python shell prompt. If it returns no error message, then `pytest` is installed. If you get an error, refer back to [lab01](https://ucsb-cs8-f18.github.io/lab/lab02/) for instructions on installing it.
+Similar to lab01, you can check whether pytest is installed by typing in the following command in the Python shell prompt. If it returns no error message, then `pytest` is installed. If you get an error, refer back to [lab01](https://ucsb-cs8-f18.github.io/lab/lab01/) for instructions on installing it.
 
 ```
 [cgaucho@csil-12 ~]$ python3
