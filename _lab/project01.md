@@ -11,6 +11,17 @@ csxx: cs8
 worksheet: ic01
 ---
 
+# Meta Information
+
+
+|Summary|The goal of this project is to draw a forest scene from two basic shape primitives: a rectangle and a triangle. |
+|Topics | Functions, loops, randomization and turtle graphics|
+|Audience | Appropriate for CS1|
+|Difficulty| This is an intermediate to advanced assignment, taking 1 or 2 weeks for a CS1 student.|
+|Strengths| The strength of this assignment is that students see the concept of composition of code via functions visually with very basic elements.|
+|Weaknesses| Students may find debugging time consuming if they don't strategically isolate parts of their drawings |
+|Dependencies| Requires students to know the basics of Turtle Graphics in Python|
+
 ## Goal and Background
 
 The goal of this project is to draw a forest scene from two basic shape primitives: a rectangle and a triangle. Students implement these primitives in a previous lab using turtle graphics. Each function takes parameters that specify the size, pen color, and fill color of that shape. The `drawRectangle` function additionally allows us to specifiy the tilt of the rectangle relative to the x-axis in degrees. The function definitions are given below:
