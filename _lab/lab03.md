@@ -156,7 +156,7 @@ python3 -m pytest {{page.num}}.py
 
 You should see three test failures. If you do, then you ready to fix the code so that it works, which is the next step.
 
-(If you need a refresher on how to interpret the output of `pytest`, refer back to [lab02](/lab/lab02/]))
+(If you need a refresher on how to interpret the output of `pytest`, refer back to [lab02](https://ucsb-cs8-f18.github.io/lab/lab02/)
 
 # Step 6: Fixing the code for `perimRect`
 
