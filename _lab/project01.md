@@ -11,20 +11,32 @@ csxx: cs8
 worksheet: ic01
 ---
 
-## Goal
+## Goal and Background
+
+The goal of this project is to draw a forest scene from two basic shape primitives: a rectangle and a triangle. Students implement these primitives in a previous lab using turtle graphics. Each function takes parameters that specify the size, pen color, and fill color of that shape. The `drawRectangle` function additionally allows us to specifiy the tilt of the rectangle relative to the x-axis in degrees. The function definitions are given below:
+
+-   `drawRectangle(t, width, height, tilt, penColor, fillColor)`
+-   `drawTriangle(t, side,  penColor, fillColor)`
+
+The parameter `t` is a turtle that is used in that function to draw something.
+
+The output produced when each function is callled with specific parameter values is shown in the following figure.
+
+![basicShapes](basicShapes.png){:height="300px"}
 
 
-The goal of this project is to draw a forest scene from basic shape primitives that students implemented in {{page.prev_lab}} using turtle graphics. The nifty idea in this assignment is that students
+The nifty idea in this assignment is that students create an interesting composition (aka a forest scene) using only two basic building blocks and the use of the random module to generate an artistic effect.
 
+# Instructions to students
 
 The key learning goals are:
 
 * using functions as building blocks in more complex compositions
-* using loops to perform repetitive tasks while keeping your code DRY (Don't repeat yourself)
-* using randomization to create variety and controlled chaos in your drawings
-* applying concepts learned in previous labs about creating and using your own modules
+* using loops to perform repetitive tasks
+* using randomization to create variety and controlled chaos in drawings
+* applying concepts learned in previous labs about creating and using modules
+* pair programming is recommended for this project, but not mandatory*
 
-*pair programming is recommended for this project, but not mandatory*
 
 What you'll be drawing
 ----------------------
