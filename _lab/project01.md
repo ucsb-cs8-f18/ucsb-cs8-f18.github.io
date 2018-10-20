@@ -76,7 +76,6 @@ Open up `idle3` and select the menu option `File => New File` to create a new fi
 
 
 
-
 In this file, put this code (but put your name instead of "your name goes here")
 
 <div style="white-space:pre;">
