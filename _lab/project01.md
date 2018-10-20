@@ -236,8 +236,6 @@ Your algorithm should be similar but more complete. Write your algorithm as comm
 
 * Now identify the information that your algorithm needs that is not a direct input to your algorithm. For example: the location of the bottom left corner of the bark, the width of the rectangle that forms the bark, the height of the bark, and so on.
 
-* Use [the {{page.worksheet}} worksheet](/hwk/{{page.worksheet}}/) to make decisions about the unspecified aspects of the tree and calculate the information that your algorithm needs.
-
 * Refine your algorithm by adding steps for calculating missing information.
 
 * Your final task is to convert your algorithm to Python code. This means writing python instructions that perform what each step in your algorithm describes. For example, "go to the location of the bottom left corner of the bark" will translate to `t.goto(x,y)`, where `(x, y)` is the lcoation of the bottom left corner of the bark relative to the start position of the turtle. Retain your algorithm as comments in your code
