@@ -178,7 +178,7 @@ You are by no means finished with this lab. But, we want to encourage you to mak
 
 5. You also will be able to see some progress towards completion of the lab&mdash; partial credit for completion of this step.
 
-Once you've submitted and you see that you have 20/60 points, you are ready to continue with the rest of the lab.
+Once you've submitted and you see that you have 50/100 points, you are ready to continue with the rest of the lab.
 
 # Step 7: Write a `areaTriangle` function and test cases.
 
@@ -215,13 +215,13 @@ Once this is done, then:
 * test your code with "Run Module" to make sure your code compiles without errors (i.e. no red messages).
 * use `python3 -m pytest {{page.num}}.py -k areaTriangle` to run just the test cases for the `areaRect` function (there should be three of them, and three skipped test cases for perimRect).
 
-Once everything passes correctly with `pytest`, submit your `{{page.num}}.py` file to Gradescope again to see if your submission passes the `areaTriangle` tests. You should see that you now have 40/60 points if the `perimRect` and `areaTriangle` tests pass. *Remember to add your partner to Group Members for this submission on Gradescope if applicable.*
+Once everything passes correctly with `pytest`, submit your `{{page.num}}.py` file to Gradescope again to see if your submission passes the `areaTriangle` tests. You should see that you now have 100/100 points if the `perimRect` and `areaTriangle` tests pass. *Remember to add your partner to Group Members for this submission on Gradescope if applicable.*
 
  
 
 # Step 8: Uploading your files to Gradescope
 
-Navigate to the Lab assignment {{page.num}} on Gradescope and upload your `{{page.num}}.py` and `{{page.num}}_face.py`. Even though Gradescope will not auto-check your drawing, you must upload {{page.num}}_face.py file to receive credit for this step. *Remember to add your partner to Group Members for this submission on Gradescope if applicable. At this point, if you worked in a pair, it is a good idea for both partners to log into Gradescope and see if you can see the uploaded files for {{page.num}}.*
+Navigate to the Lab assignment {{page.num}} on Gradescope and upload your `{{page.num}}.py`. *Remember to add your partner to Group Members for this submission on Gradescope if applicable. At this point, if you worked in a pair, it is a good idea for both partners to log into Gradescope and see if you can see the uploaded files for {{page.num}}.*
 
-Your Gradescope submission will be autograded out of 60 points. Our TAs will grade your `pytest` functions and your face drawing manually for the remaining 40 points. This lab is out of 100 points. 
+Your Gradescope submission will be autograded out of 100 points. 
 
