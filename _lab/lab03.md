@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab03
-ready: false
+ready: true
 desc: "Writing functions and tests"
 assigned: 2018-10-24 8:00:00.00-7
 due: 2018-10-30 23:59:59.59-7
@@ -46,7 +46,7 @@ Once you and your partner are in agreement, choose an initial driver and navigat
 
 # Step 1: Verify that `pytest` is working on the machine you plan to work on
 
-Similar to lab01, you can check whether pytest is installed by typing in the following command in the Python shell prompt. If it returns no error message, then `pytest` is installed. If you get an error, refer back to [lab01](lab/lab01/) for instructions on installing it.
+Similar to lab01, you can check whether pytest is installed by typing in the following command in the Python shell prompt. If it returns no error message, then `pytest` is installed. If you get an error, refer back to [lab01](https://ucsb-cs8-f18.github.io/lab/lab01/) for instructions on installing it.
 
 ```
 [cgaucho@csil-12 ~]$ python3
@@ -156,7 +156,7 @@ python3 -m pytest {{page.num}}.py
 
 You should see three test failures. If you do, then you ready to fix the code so that it works, which is the next step.
 
-(If you need a refresher on how to interpret the output of `pytest`, refer back to [lab02](/lab/lab02/]))
+(If you need a refresher on how to interpret the output of `pytest`, refer back to [lab02](https://ucsb-cs8-f18.github.io/lab/lab02/)
 
 # Step 6: Fixing the code for `perimRect`
 
@@ -213,7 +213,7 @@ The second and third test case should be one that you come up with yourself. The
 Once this is done, then:
 
 * test your code with "Run Module" to make sure your code compiles without errors (i.e. no red messages).
-* use `python3 -m pytest {{page.num}}.py -k areaTriangle` to run just the test cases for the `areaRect` function (there should be three of them, and three skipped test cases for perimRect).
+* use `python3 -m pytest {{page.num}}.py -k areaTriangle` to run just the test cases for the `areaTriangle` function (there should be three of them, and three skipped test cases for perimRect).
 
 Once everything passes correctly with `pytest`, submit your `{{page.num}}.py` file to Gradescope again to see if your submission passes the `areaTriangle` tests. You should see that you now have 100/100 points if the `perimRect` and `areaTriangle` tests pass. *Remember to add your partner to Group Members for this submission on Gradescope if applicable.*
 
