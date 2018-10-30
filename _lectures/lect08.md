@@ -9,12 +9,12 @@ date: 2018-10-30 9:30:00.00-7:00
 
 
 
-''' Midterm
+## Midterm
     - Average 86.54
     - Medium: 89.75
     - std: 11.91
 
-Common mistakes on the midterm
+### Common mistakes on the midterm
 
 Q1:  
 * 1.5 and 1.14: Incorrect indexing (1st element in a list starts at index 0). 
