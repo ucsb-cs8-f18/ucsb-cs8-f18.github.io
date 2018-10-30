@@ -7,7 +7,7 @@ date: 2018-10-30 9:30:00.00-7:00
 ---
 
 
-```
+
 
 ''' Midterm
     - Average 86.54
@@ -60,10 +60,11 @@ Q7.3 missed the print inside the function (possible issue with tracing function 
 Q7.3 Assumed that a return is always needed in the function
 Q7.4. Local vs global 
 
-
+```
 # Loops
 
 # More on loops
+
 name = "Bob"
 for c in name:
     print(c)
@@ -77,7 +78,6 @@ print("resuming program execution")
     - range(x) returns a collection of numbers including
     0 up to (but not including) x
     - Think of range(4) as [0, 1, 2, 3]
-'''
 '''
 # Example using range()
 for x in range(4):
