@@ -61,6 +61,7 @@ Q7.3 Assumed that a return is always needed in the function
 Q7.4. Local vs global 
 
 ```
+'''
 # Loops
 
 # More on loops
@@ -207,9 +208,6 @@ def countLongWords(someString):
 print(countLongWords(sentence))
 """
 
-
-
-
 ''' Tuples
     - A tuple is similar to a list, but with small
     (but important) differences.
@@ -273,4 +271,4 @@ print(type(s1))
 '''
 
 
-
+```
