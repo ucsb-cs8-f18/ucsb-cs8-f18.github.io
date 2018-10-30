@@ -2,7 +2,7 @@
 num: "Lecture 8"
 desc: "for loops, iterating through lists and strings using for loops"
 pdfurl: /lectures/pdf/lect08.pdf
-ready: false
+ready: true
 date: 2018-10-30 9:30:00.00-7:00
 ---
 
@@ -59,7 +59,6 @@ Q7.1 issues with formatting the output
 Q7.3 missed the print inside the function (possible issue with tracing function calls)
 Q7.3 Assumed that a return is always needed in the function
 Q7.4. Local vs global 
-
 
 
 # Loops
@@ -207,6 +206,71 @@ def countLongWords(someString):
 
 print(countLongWords(sentence))
 """
+
+
+
+
+''' Tuples
+    - A tuple is similar to a list, but with small
+    (but important) differences.
+    - .sort() works for lists, but not tuples
+    - inherently, tuples and lists are different,
+    but logically they seem the same.
+    - can change an element in a list, but can't
+    change them in a tuple.
+'''
+
+'''
+#Examples
+oddNumbers = (1, 3, 5, 7)
+print(oddNumbers)
+print(type(oddNumbers))
+print(oddNumbers[2]) #5
+
+oddNumbers2 = [1, 3, 5, 7]
+oddNumbers2[2] = 9
+print(oddNumbers2)
+# oddNumbers[2] = 9 ERROR, cannot change item in tuple
+#print(oddNumbers)
+
+oddNumbers = (1, 3, 9, 7)
+print(oddNumbers)
+'''
+''' Namedtuples
+    - Package heterogenous things into a multi-
+    attribute item
+    - We can represent more complex data into
+    specific types
+    - Ex: Students
+        - Name, perm, major, DOB, address, GPA,
+        full-time / part-time, international, ...
+    - Creating multi-attribute things is the basis
+    of object oriented programming.
+'''
+'''
+#Example on using namedtuples
+
+# Step 1: Allow your program to use namedtuples.
+from collections import namedtuple
+
+# Step 2: Design your object
+Student = namedtuple("Student", "name perm major GPA")
+# Parameters of function, 1st is name of the namedtuple
+# type (Student).
+# 2nd parameter is a string containing the names of
+# attributes
+
+# Step 3: Create objects
+s1 = Student("John Doe", 1234567, "CS", 3.5)
+s2 = Student("Jane Doe", 7654321, "MUSIC", 3.9)
+
+print("Name of s1:", s1.name)
+print("Perm of s1:", s1.perm)
+print("GPA of s2:", s2.GPA)
+print(s1)
+print(s2)
+print(type(s1))
+'''
 
 
 
