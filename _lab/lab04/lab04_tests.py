@@ -150,7 +150,7 @@ def test_countEvens_4():
     assert countEvens([-1,1,3,5,7]) == 0
     
 def test_countEvens_5():
-    assert countEvens([1.0,2.0,3.0,4.0,5.0,6.0,7.0,-2.0]) == 4
+    assert countEvens([1.0,2.0,3.0,4.0,5.0,6.0,7.0,-2.0]) == 0
 
 ####################
 from lab04 import computeGrade
