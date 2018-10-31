@@ -35,8 +35,8 @@ In this lab, you will need to create two files:
 
 Starter code is provided for you and are located at (you may need to refresh the page if the links do not load immediately):
 
-* [{{page.num}}.py](https://github.com/ucsb-cs8-s18/ucsb-cs8-s18.github.io/blob/master/_lab/lab09/lab09.py)
-* [{{page.num}}\_tests.py](https://github.com/ucsb-cs8-s18/ucsb-cs8-s18.github.io/blob/master/_lab/lab09/lab09_student_tests.py)
+* [{{page.num}}.py](https://ucsb-cs8-f18.github.io/lab/lab08/lab08.py)
+* [{{page.num}}\_tests.py](https://ucsb-cs8-f18.github.io/lab/lab08/lab08_student_tests.py)
 
 
 You will complete the portions in the starter code by doing the following:
