@@ -7,7 +7,7 @@ import pytest
   There's an example for each function to test: 
 '''
 ####################
-from lab09 import recursiveDigitSum
+from lab08 import recursiveDigitSum
 
 def test_recursiveDigitSum_0():
     assert recursiveDigitSum(9999) == 36
@@ -15,7 +15,7 @@ def test_recursiveDigitSum_0():
 # Your tests for recursiveDigitSum...
 
 ####################
-from lab09 import recursiveSubstring
+from lab08 import recursiveSubstring
 
 def test_recursiveSubstring_0():
     assert recursiveSubstring("CS8", "CS") == True
@@ -23,7 +23,7 @@ def test_recursiveSubstring_0():
 # Your tests for recursiveDigitSum...
 
 ####################
-from lab09 import recursiveReverseList
+from lab08 import recursiveReverseList
 
 def test_recursiveReverseList_0():
     assert recursiveReverseList([1,2,3]) == [3,2,1]
@@ -31,7 +31,7 @@ def test_recursiveReverseList_0():
 # Your tests for recursiveReverseList...
 
 ####################
-from lab09 import recursiveAccumulateVowels
+from lab08 import recursiveAccumulateVowels
 
 def test_recursiveAccumulateVowels_0():
     assert recursiveAccumulateVowels("apple") == "ae"
