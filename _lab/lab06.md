@@ -35,10 +35,10 @@ In this lab, you will need to create two files:
 * <strong>Please comment your (and your partner's name (if applicable)) at the top of each file.</strong>
 
 Starter code is provided for you and are located at (you may need to refresh the page if the links do not load immediately):
-* <https://ucsb-cs8-f18.github.io/lab/lab07/lab07.py>
-* <https://ucsb-cs8-f18.github.io/lab/lab07/lab07_tests.py>
-* <https://ucsb-cs8-f18.github.io/lab/lab07/input1.txt>
-* <https://ucsb-cs8-f18.github.io/lab/lab07/input2.txt>
+* <https://ucsb-cs8-f18.github.io/lab/lab06/lab06.py>
+* <https://ucsb-cs8-f18.github.io/lab/lab06/lab06_tests.py>
+* <https://ucsb-cs8-f18.github.io/lab/lab06/input1.txt>
+* <https://ucsb-cs8-f18.github.io/lab/lab06/input2.txt>
 
 1.  Create a directory called ~/cs8/{{page.num}} (using the `mkdir` command) and `cd` into that directory.
 2.  Use `idle3` (you might try `idle3 &` if you want to be able to type commands on your terminal window after IDLE opens).
@@ -96,4 +96,4 @@ Note that all words are separated by a whitespace character, and a word contains
 
 # Upload `{{page.num}}.py` and `{{page.num}}_tests.py` to Gradescope.
 
-Once you're done with writing your functions, navigate to the Lab assignment "Lab06" on Gradescope and upload your `{{page.num}}.py` and `{{page.num}}_tests.py` files. <strong>*Remember to add your partner to Groups Members for this submission on Gradescope if applicable. At this point, if you worked in a pair, it is a good idea for both partners to log into Gradescope and see if you can see the uploaded files for Lab07.*</strong>
+Once you're done with writing your functions, navigate to the Lab assignment "Lab06" on Gradescope and upload your `{{page.num}}.py` and `{{page.num}}_tests.py` files. <strong>*Remember to add your partner to Groups Members for this submission on Gradescope if applicable. At this point, if you worked in a pair, it is a good idea for both partners to log into Gradescope and see if you can see the uploaded files for Lab06.*</strong>
