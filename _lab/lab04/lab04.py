@@ -136,7 +136,7 @@ def expensiveBooks(price, listOfBooks):
     the object's attributes (.title, .author, .price) instead of indexing
     them for full credit (as discussed in lecture). 
     - Hint: Think of appending book titles to a list (recall .append) when
-    the cost of the book is greater than the value price, and returning the
-    list of accumulated book titles.
+    the cost of the book is greater than or equal to the value price, and 
+    returning the list of accumulated book titles.
     '''
     return "stub"
