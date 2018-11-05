@@ -104,7 +104,7 @@ def updatePrice(pricePercent, listOfItems):
         the updated price is $3.00. If an item is $2.00 and pricePercent
         is -50, then the resulting price is $1.00.
     - Hint: Recall that namedtuples are IMMUTABLE types and we cannot
-    simply change a namedtuple attribute. See lecture 10 on how we can
+    simply change a namedtuple attribute. See the pdf slides for lecture 9 and 10 on how we can
     update namedtuple attributes using the ._replace method or
     constructing a new namedtuple object.
     '''
