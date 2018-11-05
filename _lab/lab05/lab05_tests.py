@@ -19,7 +19,7 @@ def test_totalCharacters_5():
     assert totalCharacters([1,"2","3"]) == -1
 
 ####################
-from lab04 import factorial
+from lab05 import factorial
 
 # Tests for factorial
 def test_factorial_1():
@@ -38,7 +38,7 @@ def test_factorial_5():
     assert factorial(-2) == -1
 
 ####################
-from lab04 import maxNum
+from lab05 import maxNum
 def test_maxNum_1():
     assert maxNum([]) == None
 
@@ -55,7 +55,7 @@ def test_maxNum_5():
     assert maxNum([4,4,"4",3]) == None
 
 ####################
-from lab04 import indexOf
+from lab05 import indexOf
 
 # Tests for indexOf
 def test_indexOf_1():
@@ -74,14 +74,14 @@ def test_indexOf_5():
     assert indexOf(1, "1") == None
 
 ####################
-from lab04 import Item
+from lab05 import Item
 
 i1 = Item('Eggs', 2.00, 2)
 i2 = Item('Milk', 4.00, 0)
 i3 = Item('Honey', 3.00, 3)
 i4 = Item('Orange', 1.00, 0)
 
-from lab04 import unpopularItems
+from lab05 import unpopularItems
 
 # Tests for unpopularItems
 def test_unpopularItems_1():
@@ -100,7 +100,7 @@ def test_unpopularItems_5():
     assert unpopularItems([]) == []
 
 ####################
-from lab04 import updatePrice
+from lab05 import updatePrice
 def test_updatePrice_1():
     assert updatePrice(100, [i1, i2]) == [Item('Eggs', 4.00, 2),
                                           Item('Milk', 8.00, 0)]
