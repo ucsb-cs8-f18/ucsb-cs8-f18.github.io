@@ -70,13 +70,14 @@ def indexOf(value, listOfValues):
     Function that takes in a value (of any type) and a list of values
     containing any type (listOfValues). Returns the index in the list of
     the first match between value and an element in listOfValues.
-    - Returns None if listOfValues is not a list type.
+    - Returns None if listOfValues is not a list type or if value is 
+    not present in the list
     '''
     return "stub"
 
 
 # Item namedtuple definition used for the next two functions
-# Name is the name of an item, price is the price of an item, and
+# Name is the name of an item, price is the price of an item in dollars, and
 # purchased is the number of items sold.
 from collections import namedtuple
 Item = namedtuple("Item", "name price purchased")
@@ -99,9 +100,9 @@ def updatePrice(pricePercent, listOfItems):
     Function that takes a pricePercent value and a list of Items.
     Returns a list with updated Items in listOfItems with the original
     price changed by pricePercent.
-        - For example, if an item is 1.00 and pricePercent is 50, then
-        the updated price is 1.50. If an item is 1.00 and pricePercent
-        is -50, then the resulting price is 0.50.
+        - For example, if the price of an item is $2.00 and pricePercent is 50, then
+        the updated price is $3.00. If an item is $2.00 and pricePercent
+        is -50, then the resulting price is $1.00.
     - Hint: Recall that namedtuples are IMMUTABLE types and we cannot
     simply change a namedtuple attribute. See lecture 09 on how we can
     update namedtuple attributes using the ._replace method or
