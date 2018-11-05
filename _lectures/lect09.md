@@ -8,6 +8,35 @@ date: 2018-11-01 9:30:00.00-7:00
 
 
 ```
+from collections import namedtuple
+Student = namedtuple('Student', 'name perm major gpa')
+s1 = Student("Nick", 12345, "PSYCH", 3.9)
+print(s1)
+#s1.gpa = 4.0 # ERROR, namedtuples are IMMUTABLE (they cannot be changed)
+
+''' seems intuitive to do something like changing an
+attribute, but it's illegal because namedtuples are
+IMMUTABLE.
+'''
+
+# Q: How can we change it?
+# 1: Create a new object and reassign to variable
+s1 = Student(s1.name, s1.perm, s1.major, 4.0)
+print(s1)
+
+# 2: Use a _replace method
+s1 = s1._replace(gpa= 4.0)
+# ._replace returns a new namedtuple and we assign back
+# to the variable s1
+print(s1)
+
+''' Q: Why should we even care?
+- It's the behavior of the language!
+- Depending on whether or not something is immutable or
+mutable, it affects how the data is treated when passing
+it into a function.
+'''
+
 '''More on the accumulator pattern
 '''
 
