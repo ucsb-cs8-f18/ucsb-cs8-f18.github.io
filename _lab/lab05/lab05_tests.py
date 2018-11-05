@@ -1,6 +1,6 @@
-# lab04_tests.py
+# lab05_tests.py
 
-from lab04 import totalCharacters
+from lab05 import totalCharacters
 
 # Tests for totalCharacters
 def test_totalCharacters_1():
