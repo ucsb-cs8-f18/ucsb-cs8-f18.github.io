@@ -3,7 +3,7 @@ layout: lab
 num: project01
 ready: false
 desc: "Project-01 Turtle Graphics: Scene from a forest"
-assigned: 2018-11-01 12:30:00.00-7
+assigned: 2018-11-08 12:30:00.00-7
 due: 2018-12-03 23:59:00.00-8
 prev_lab: lab01
 prev_lab_solution_url: https://github.com/ucsb-cs8-f18/ucsb-cs8-f18.github.io/blob/master/_lab/project01/basicShapes.py
