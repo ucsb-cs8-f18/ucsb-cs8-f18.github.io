@@ -1,14 +1,14 @@
-# lab04.py
+# lab05.py
 
 # Student(s): (insert name and perm number here)
 
 # This file contains several incomplete function definitions with stub
-# values. Lab04_tests.py have tests to check if the functions are correct.
+# values. lab05_tests.py have tests to check if the functions are correct.
 # Your assignment is to complete each function according to the
 # functions' descriptions.
 #
 # Once you complete a function, you can run pytest on the tests defined
-# in lab04_tests.py to see if your functions are working correctly.
+# in lab05_tests.py to see if your functions are working correctly.
 
 def totalCharacters(listOfStr):
     '''
