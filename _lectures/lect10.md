@@ -24,13 +24,12 @@ print(round(15.4999999999))
 FILES give us PERSISTENCE
     - So far, we've been running our programs in IDLE and
     putting our code into a file.
-    - Between each run, our data is cleared and everything
-    has to be reloaded again.
+    	* Data must be entered on every program run
+    	* Programs have no way to write permanent output
     - With PERSISTENCE, our data can be "saved" between
     each program execution.
 
-FILE BASICS
-    - We can read from files
+FILE BASICS:
     - We can store files in many different forms
         - Examples: .xls, .docx, .pdf, .jpg, ...
         - For this class, we'll just deal with "plain text"
@@ -42,17 +41,25 @@ FILE BASICS
         - UTF-8 is the most popular format in today's web browsers
         - Allows us to represent MANY characters from multiple
         languages
-    File: A document
+
+TERMS:
+    
+   	File: A document
     Directory: A folder containing files and other folders
     File System: Collection of all the files and folders on the
-        computer
+        computer, organized in a heirarchy
     For this class, we'll deal with reading and writing files
     that are in the same directory as our .py file (known as
     our "working directory"
         - This makes our lives much easier
 
 The Unix File system:
-- Files are stored in directories, directories are stored in other directories. In unix the topmost directory stores all other directories and files. This directory is called the root (denoted by /) 
+- In unix the directory at the highest level of the hierarchy is called the root (denoted by /). All other directories and files are stored within the root
+- Path: The path is a sequence (of directories) that specifies the location of a file or directory within the file system. For example, /Users/diba/ says that the directory diba is within the directory Users which is within the root
+
+	* An ABSOLUTE path describes the location of a file or directory starting with the root (/)
+	* A RELATIVE path describes the location of a file relative to the current directory. For example ./cs8/lab05/ (Here './' stands for "current directory" ) 
+
 - You can move through the unix file system via the command line (instead of using the graphical interface)
 - Few useful unix commands
   - pwd (path to your current working directory)
@@ -60,11 +67,7 @@ The Unix File system:
   - mkdir (make a new directory)
   - cd (change into a directory, need to give either absolute or relative path)
 
-- Path: The path is a sequence (of directories) that specifies the location of a file or directory within the file system. For example, /Users/diba/ says that the directory diba is within Users which is within the root
 
-* An ABSOLUTE path describes the location of a file or directory starting with the root (/)
-
-* A relative path  describes the location of a file or directory starting at the current directory. For example ./cs8/lab05/ (Here './' stands for "my current directory" ) 
 
 FILE I/O:
     - I/O stands for input / output
