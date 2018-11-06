@@ -1,7 +1,7 @@
 ---
 num: "Lecture 10"
 desc: "File IO, String Formatting"
-pdfurl: /lectures/pdf/lect09.pdf
+pdfurl: /lectures/pdf/lect10.pdf
 ready: true
 date: 2018-11-07 9:30:00.00-7:00
 ---
