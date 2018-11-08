@@ -30,11 +30,13 @@ Once you and your partner are in agreement, choose an initial driver and navigat
 # Instructions
 
 In this lab, you will need to create two files:
+
 * `{{page.num}}.py` - file containing function definitions
 * `{{page.num}}_tests.py` - file containing test cases
 * <strong>Please comment your (and your partner's name (if applicable)) at the top of each file.</strong>
 
 Starter code is provided for you and are located at (you may need to refresh the page if the links do not load immediately):
+
 * <https://ucsb-cs8-f18.github.io/lab/lab06/lab06.py>
 * <https://ucsb-cs8-f18.github.io/lab/lab06/lab06_tests.py>
 * <https://ucsb-cs8-f18.github.io/lab/lab06/input1.txt>
