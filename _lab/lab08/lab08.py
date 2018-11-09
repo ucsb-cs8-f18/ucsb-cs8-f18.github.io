@@ -11,7 +11,7 @@ def recursiveDigitSum(n):
 
 def recursiveSubstring(s, sub):
     '''
-    The parameters sub and s are strings. This function omputes if a
+    The parameters sub and s are strings. This function computes if a
     the string sub exists in s.
     - Your solution must use recursion in order to receive credit.
     '''
