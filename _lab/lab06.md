@@ -1,9 +1,9 @@
 ---
 layout: lab
 num: lab06
-ready: false
+ready: true
 desc: "String formatting, random, and file IO"
-assigned: 2018-11-14 8:00:00.00-8
+assigned: 2018-11-14 9:00:00.00-8
 due: 2018-11-20 23:59:59.59-8
 ---
 
