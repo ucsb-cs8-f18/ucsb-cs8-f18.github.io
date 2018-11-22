@@ -3,8 +3,8 @@ layout: lab
 num: lab08
 ready: false
 desc: "Recursion"
-assigned: 2018-11-28 8:00:00.00-8
-due: 2018-12-05 23:59:59.59-8
+assigned: 2018-12-05 8:00:00.00-8
+due: 2018-12-09 23:59:59.59-8
 csxx: cs8
 ---
 

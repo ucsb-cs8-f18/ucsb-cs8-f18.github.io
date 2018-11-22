@@ -3,8 +3,8 @@ layout: lab
 num: lab07
 ready: false
 desc: "Scrabble word finder: Python lists, dictionaries and file I/O"
-assigned: 2018-11-21 8:00:00.00-8
-due: 2018-11-27 23:59:59.59-8
+assigned: 2018-11-28 8:00:00.00-8
+due: 2018-12-04 23:59:59.59-8
 ---
 
 In this lab, you'll get more practice with:
