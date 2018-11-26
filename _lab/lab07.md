@@ -84,9 +84,9 @@ You can choose to start from scratch or use the starter code we have provided he
 
 3. **getWordPoints(myWord, letterPoints)** - return an int representing the points for myWord.  Write a function that calculates and returns the total point value of `myWord` given the Python dictionary object `letterPoints` which consists of letter:pointValue pairs. If a character in `myWord` is not a key in the provided dictionary then its score value is 0. If any of the input is incorrect type then return 0. Note that you do not need to create the `letterPoints` dictionary in this step - it is a parameter to our function and will be created in `scrabbleWords()`.
 
-4. **outputWordPointPairs(pointWordList, myLetters, toFile)** - NO return (just prints a formatted list or writes it to file).
+4. **outputWordPointPairs(pointWordList, filename, toFile)** - NO return (just prints a formatted list or writes it to file).
 
-* Write a function which will output the (pointValue, word) pairs in pointWordList to the shell or to a file depending on the bool value `toFile`
+* Write a function which will output the (pointValue, word) pairs in pointWordList to the shell or to a file depending on the bool value `toFile`. Note the order of elements of the tuple is (pointValue, word) not (word, pointValue). Find out why this specific order is preferred.
 
 * When `toFile` is `False`,  print all the words followed by their point value.  Format the output so that your word is left justified in a field of width 4 more than the number of letters in `myLetters`, and the point value follows immediately afterwards.  You can do this with the format string method by carefully forming the `'{...}'` string first.
 
@@ -108,7 +108,7 @@ You can choose to start from scratch or use the starter code we have provided he
 
 * Sort `pointWordList` in descending order.  Now, you can use the list method sort() to sort the tuples according to their first entry, pointValue.  But sort() arranges a list in ascending order by default....can you think of a way to reverse this?
 
-* Call your `outputWordPointPairs()` and print your formatted string output to terminal. Then make a second call to `outputWordPointPairs()` to output to a .txt file named after the string in `myLetters`.
+* Call your `outputWordPointPairs()` and print your formatted string output to terminal. Then make a second call to `outputWordPointPairs()` to output to a text file named after the string in `myLetters`.
 
 ## Write test code in {{page.num}}_student_tests.py
 
