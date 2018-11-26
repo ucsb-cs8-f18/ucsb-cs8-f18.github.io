@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab07
-ready: false
+ready: true
 desc: "Scrabble word finder: Python lists, dictionaries and file I/O"
 assigned: 2018-11-28 8:00:00.00-8
 due: 2018-12-04 23:59:59.59-8
@@ -62,7 +62,7 @@ u        1
 i        1
 ```
 
-So, how did our program know which letter combinations were valid words?......We have to specify a file of words, which you can find here: [wordlist.txt](https://ucsb-cs8-w18-wang.github.io/lab/lab07/wordlist.txt).  This file must be downloaded (right click and "save as") and put into your `{{page.num}}` directory before you begin, so do that now.  Note that this file contains a fairly complete list of English words, so beware that there may be some expletive and/or raunchy words - please don't hold me personally responsible if you are offended.  Perhaps this will be motivation for some of you to complete the assignment.  
+So, how did our program know which letter combinations were valid words?......We have to specify a file of words, which you can find here: [wordlist.txt](https://ucsb-cs8-w18-wang.github.io/lab/lab07/wordlist.txt).  This file must be downloaded (right click and "save as") and put into your `{{page.num}}` directory before you begin, so do that now.  Note that this file contains a fairly complete list of English words, so beware that there may be some expletive words - please don't hold me personally responsible if you are offended.  Perhaps this will be motivation for some of you to complete the assignment.  
 
 You can choose to start from scratch or use the starter code we have provided here (you may need to refresh the page if the links do not load immediately):
 * <https://ucsb-cs8-f18.github.io/lab/lab07/lab07.py>
@@ -104,7 +104,7 @@ You can choose to start from scratch or use the starter code we have provided he
 
 ![letter points](scrabble_letters.png){:height="200px"}
 
-* Create a list of tuples consisting of (pointValue, word) pairs by looping through the list `myWords` and getting the point value for each word - name this list of tuples `pointWordList`.  To calculate pointValue, you will want to call helper function `getWordPoints()`.
+* Create a list of tuples consisting of (pointValue, word) pairs by looping through the list `myWords` and getting the point value for each word - name this list of tuples `pointWordList`.  To calculate pointValue, you will want to call helper function `getWordPoints()`. Note that each tuple is ordered as (pointValue, word) and not (word, pointValue). This makes it easier to sort the list (see next step).
 
 * Sort `pointWordList` in descending order.  Now, you can use the list method sort() to sort the tuples according to their first entry, pointValue.  But sort() arranges a list in ascending order by default....can you think of a way to reverse this?
 

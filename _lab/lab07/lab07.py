@@ -3,12 +3,13 @@
 
 def createWordList(filename):
   '''
-  Reads in the in the filename and creates a list L which contains all the words. 
+  Reads in the filename and creates a list L which contains all the words. 
   You must remove the newline character ('\n') at the end of each word.  
 
   :param filename: the string which represents the filename you are reading from.
   :return: A list of strings  
   '''
+
   return "stub"
 
 
@@ -34,13 +35,13 @@ def getWordPoints(myWord, letterPoints):
   return "stub"
 
 
-def outputWordPointPairs(pointWordList, myLetters, toFile):
+def outputWordPointPairs(pointWordList, filename, toFile):
   '''
   Outputs the contents of pointWordList in a specified format to a file (see lab instructions).
     
-  :param pointWordList: a list of tuples to output to, with each tuple 
-   containing a (pointValue, word) pair
-  :param myLetters: a string that you will name the file with if toFile is True
+  :param pointWordList: a list of tuples to print or output to a file, each tuple 
+   contains a (pointValue, word) pair
+  :param filename: a string that you will name the file with if toFile is True
   :param toFile: a boolean to decide whether I want to print to file or not. If True then output to file else output to terminal.
   :return: None
   '''
