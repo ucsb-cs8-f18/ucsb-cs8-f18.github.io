@@ -86,6 +86,8 @@ You can choose to start from scratch or use the starter code we have provided he
 
 4. **outputWordPointPairs(pointWordList, filename, toFile)** - NO return (just prints a formatted list or writes it to file).
 
+NOTE: Your function should add the .txt extension to the filename before opening a file with that name.
+
 * Write a function which will output the (pointValue, word) pairs in pointWordList to the shell or to a file depending on the bool value `toFile`. Note the order of elements of the tuple is (pointValue, word) not (word, pointValue). Find out why this specific order is preferred.
 
 * When `toFile` is `False`,  print all the words followed by their point value.  Format the output so that your word is left justified in a field of width 4 more than the number of letters in `filename`, and the point value follows immediately afterwards.  You can do this with the format string method by carefully forming the `'{...}'` string first.
