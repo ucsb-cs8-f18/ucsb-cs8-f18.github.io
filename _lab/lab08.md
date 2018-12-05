@@ -1,7 +1,7 @@
 ---
 layout: lab
 num: lab08
-ready: false
+ready: true
 desc: "Recursion"
 assigned: 2018-12-05 8:00:00.00-8
 due: 2018-12-09 23:59:59.59-8
