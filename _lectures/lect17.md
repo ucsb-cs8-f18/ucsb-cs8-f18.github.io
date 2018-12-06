@@ -41,6 +41,7 @@ Advice on how to prepare
     - Lecture notes (important to know topics, examples,
     concepts).
         - Type out the code and understand the output
+    - Code written in lecture: [https://github.com/ucsb-cs8-f18/cs8-f18-lecture-code](https://github.com/ucsb-cs8-f18/cs8-f18-lecture-code)
     - Understanding labs and being able to implement them
     - Reading the textbook for additional details and
     understanding
