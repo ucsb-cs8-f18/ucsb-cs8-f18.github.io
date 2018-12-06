@@ -6,13 +6,12 @@ ready: true
 date: 2018-12-06 9:30:00.00-7:00
 ---
 
-```
-# CS 8
 
 # CS 8 Final Exam Review
 - Final Exam: Tuesday 12/11, 8am - 11am, BUCHN 1920
 - Seating is assigned: check the [seat assignment for F18](https://docs.google.com/spreadsheets/d/1drNXWhbSf7qDbTp8GeiGn22oktQ65GnZDuus69R-Suw/edit?usp=sharing)
 - Check the [layout of the room](https://docs.google.com/spreadsheets/d/1DCXIO-g_TtvXU2vV4L5AVtZdrQFIZeuQZ8TpT9JMPWI/edit?usp=sharing) to locate your seat
+- Link to code written in lecture: [https://github.com/ucsb-cs8-f18/cs8-f18-lecture-code](https://github.com/ucsb-cs8-f18/cs8-f18-lecture-code)
 - Exam will be longer than the midterm (~ twice as long, ~ 2 hours)
 - Exam is cumulative (covers everything from print statements
 to complex data structures)
@@ -37,11 +36,13 @@ to complex data structures)
         what is being asked
         - Double-check your work
 
+```
+'''
 ## Advice on how to prepare
     - Lecture notes (important to know topics, examples,
     concepts).
-        - Type out the code and understand the output
-    - Code written in lecture: [https://github.com/ucsb-cs8-f18/cs8-f18-lecture-code](https://github.com/ucsb-cs8-f18/cs8-f18-lecture-code)
+    - Review code written in lecture 
+      - Type out the code and understand the output 
     - Understanding labs and being able to implement them
     - Reading the textbook for additional details and
     understanding
@@ -117,3 +118,5 @@ to complex data structures)
 - 2D Lists
 - String functions and formatting
 - Random
+'''
+```
