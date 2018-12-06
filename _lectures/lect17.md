@@ -9,7 +9,7 @@ date: 2018-12-06 9:30:00.00-7:00
 ```
 # CS 8
 
-''' CS 8 Final Exam Review
+# CS 8 Final Exam Review
 - Final Exam: Tuesday 12/11, 8am - 11am, BUCHN 1920
 - Seating is assigned: check the [seat assignment for F18](https://docs.google.com/spreadsheets/d/1drNXWhbSf7qDbTp8GeiGn22oktQ65GnZDuus69R-Suw/edit?usp=sharing)
 - Check the [layout of the room](https://docs.google.com/spreadsheets/d/1DCXIO-g_TtvXU2vV4L5AVtZdrQFIZeuQZ8TpT9JMPWI/edit?usp=sharing) to locate your seat
@@ -37,7 +37,7 @@ to complex data structures)
         what is being asked
         - Double-check your work
 
-Advice on how to prepare
+## Advice on how to prepare
     - Lecture notes (important to know topics, examples,
     concepts).
         - Type out the code and understand the output
@@ -51,9 +51,9 @@ Advice on how to prepare
         - write a simple example
         - Helps with code practice as well as understanding the language and edge cases
 
-Overview of topics covered after midterm 2
+## Overview of topics covered after midterm 2
 
-File I/O
+* File I/O
     - Read file (infile = open('example.txt', 'r'))
         - infile.read()
         - infile.read(n)
@@ -64,7 +64,7 @@ File I/O
     - Append file (outfile = open('example.txt', 'a'))
         - outfile.write(somestring)
 
-Dictionaries
+* Dictionaries
     - key / value pairs
     - Creating a dictionary
     - Adding to a dictionary
@@ -75,7 +75,7 @@ Dictionaries
         - .values()
         - .items()
 
-Sets
+* Sets
     - Collection of items with no duplicates
     - Creating an empty set or a set from a list
     - Set operators
@@ -86,7 +86,7 @@ Sets
         - .add, .clear
 
 
-Recursion
+* Recursion
     - Properties of recursion
         - base case
         - recursive calls getting "closer" to base case
@@ -96,7 +96,7 @@ Recursion
         - computing values (factorial, fibonacci, ...)
         - etc.
 
-Topics covered before midterm 2 (refer to previous lecture notes)
+## Topics covered before midterm 2 (refer to previous lecture notes)
 - Python data types
 - Arithmetic
 - Python built-in functions
@@ -117,5 +117,3 @@ Topics covered before midterm 2 (refer to previous lecture notes)
 - 2D Lists
 - String functions and formatting
 - Random
-'''
-```
